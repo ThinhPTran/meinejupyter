@@ -5,6 +5,8 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [etaoin "0.4.1"]
-                 [hickory "0.6.0"]]
+                 [hickory "0.6.0"]
+                 [org.clojure/java.jdbc "0.7.10"]
+                 [com.h2database/h2 "1.4.197"]]
   :plugins [[org.clojars.benfb/lein-gorilla "0.7.0"]]
   :repl-options {:init-ns getdata.core})
