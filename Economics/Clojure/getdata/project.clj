@@ -7,6 +7,7 @@
                  [etaoin "0.4.1"]
                  [hickory "0.6.0"]
                  [org.clojure/java.jdbc "0.7.10"]
-                 [com.h2database/h2 "1.4.197"]]
+                 [com.h2database/h2 "1.4.197"]
+                 [clj-time "0.15.2"]]
   :plugins [[org.clojars.benfb/lein-gorilla "0.7.0"]]
   :repl-options {:init-ns getdata.core})
